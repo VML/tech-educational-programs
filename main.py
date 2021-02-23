@@ -14,7 +14,7 @@ with open('programs.csv') as csv_file:
             line_count += 1
         else:
             id = int(row[0])
-            p = program.Program(id, row[1], row[2])
+            p = program.Program(id, row)
             all_programs[id] = p  #key = id, value = program obj
             line_count += 1
 
@@ -40,14 +40,14 @@ print(list(nx.topological_sort(graph)))
 print('\n')
 
 print('Programs sorted by name: ')
-sorted_by_name = sorted(all_programs, key=lambda id: all_programs[id].name)
-for id in sorted_by_name:
+sorted = sorted(all_programs, key=lambda id: all_programs[id].program_company)
+for id in sorted:
     p = all_programs[id]
-    print(f'\tProgram {p.id} with name {p.name} was added on {p.date_added}')
+    print(f'\tProgram {p.id} with name {p.program_company} was added on {p.date_added}')
 print('\n')
 
-id_to_retrieve = 5
+id_to_retrieve = 6
 retrieved_program = all_programs[id_to_retrieve]
 print('Info about a particular program: ')
-print(f'\tProgram {retrieved_program.id} with name {retrieved_program.name} was added on {retrieved_program.date_added}')
+print(f'\tProgram {retrieved_program.id} with name {retrieved_program.program_company} was added on {retrieved_program.date_added}')
 print('\n')

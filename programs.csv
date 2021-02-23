@@ -1,7 +1,9 @@
-'ID','Name','Date Added'
-0,'root',8/18/2007
-1,'a',8/30/2021
-2,'b',8/19/2007
-3,'c',8/20/2007
-4,'d',8/21/2017
-5,'e',8/22/2021
+ID,Date added,Program Company,Program Name,Mission / Purpose,Race identity,Ethnic identity,Sexual orientation,Gender identity,Hours per week,Program duration,Attendance requirements,Tech focus,Cost,Contact info,Flagged as outdated,Flagged as invalid
+0,2/22/2021,Prime Digital Academy,,To get people with no coding experience into coding,,,,,FT,20 Weeks,M - F 9am � 5pm,Full-Stack,"Tuition is $16000,Students paying up front receive a $500 discount, $1500 down payment due on acceptance, $14000 due first day of classroom",https://primeacademy.io/courses/engineering,,
+1,2/22/2021,KU Bootcamp,,,,,,,PT,24 Weeks,"2 weekdays 6:30pm � 9 pm, Sat 10am � 2pm","Full-Stack, Data Analyst, Cybersecurity, Digital Marketing, Tech Project Management",,https://bootcamp.ku.edu/,,
+2,2/22/2021,LaunchCode,LC101,,,,,,PT,20 Weeks,,Full-Stack,Free,https://www.launchcode.org/get-started,,
+3,2/22/2021,LaunchCode,CoderGirl,To help females break into tech,,,,female,PT,20 Weeks,,Full-Stack,Free,https://www.launchcode.org/get-started,,
+4,2/22/2021,Apprenti,,,,,,,PT,"Training 10 - 19 weeks, Apprentiship 1 year",,"Software Development, IT Support Profesional, Cybersecurity Analyst ",,https://portal.apprenticareers.org/ ,,
+5,2/22/2021,Skilled KC ,,,,,,,,5 months,,"Advance Manufactoring, Software Development, Biotechnology",,https://www.skilledkc.org/programs/,,
+6,2/22/2021,Dr. Joe Phillips,,,,,,,,,,Director of Tech for KCPS,,https://www.linkedin.com/in/joejphillips/,,
+7,2/22/2021,MindDrive,,,,,,,,,,"Automotive Design Studio, Digital Art and Design, Welding Art studio, Battlebots NRL Robotics, Drone FPV Racing",,https://minddrive.org/,,
